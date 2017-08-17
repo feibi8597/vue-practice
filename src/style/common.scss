@@ -1,0 +1,54 @@
+body, div, span, header, footer, nav, section, aside, article, ul, dl, dt, dd, li, a, p, h1, h2, h3, h4,h5, h6, i, b, textarea, button, input, select, figure, figcaption {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    border: none;
+    color: #8a9ba1;
+    box-sizing: border-box;
+    font-family: "Microsoft Yahei",sans-serif;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-font-smoothing: antialiased;
+    &:focus {
+        outline: none;
+    }
+}
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    text-align: center;
+    height: 35px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.form-group {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.header {
+    font-size: 16px;
+}
+.footer {
+    font-size: 12px;
+}
+
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+    touch-action: manipulation;
+    &.btn-circle {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+    }
+    &.btn-dark {
+        background: #3f4e59;
+        border-color: #3f4e59;
+        color: #b4bfc3
+    }
+}
