@@ -24,15 +24,15 @@
 			</div>
 			<div class="btn-wrapper">
 				<button class="btn btn-circle btn-dark">
-					ss
+					登录
 				</button>
 			</div>
 			<div class="remember">
 				<el-checkbox v-model="checked">下次自动登录</el-checkbox>
 			</div>
 			<div class="third-party">
-				<div class="">第三方登录</div>
-				<div class=""></div>
+				<router-link to="/three-party">第三方登录</router-link>
+				<router-link to="/remeber">记住密码</router-link>
 			</div>
 		</div>
 	</div>
